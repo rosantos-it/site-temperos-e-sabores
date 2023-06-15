@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F2;
+}
+
+hr {
+  width: 95%;
+}
+
+header {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.containerApresentacao {
+  width: 100%;
+  height: 100%;
+  margin-top: -6%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.data {
+  font-size: 23px;
+  font-weight: bold;
+  color: #EA7B26;
+  font-family: 'Inter', sans-serif;
+}
+
+.texto {
+  line-height: 1%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #C94B4B;
+  font-family: 'Inter', sans-serif;
+}
+
+.containerNav {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Inter', sans-serif;
+}
+
+.barraNav {
+  font-size: x-large;
+  font-weight: bold;
+  color: #EA7B26;
+}
+
+.link:link {
+  color: #C94B4B;
+  font-weight: bold;
+}
+
+.link:visited {
+  color: #C94B4B;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #EA7B26;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.containerFestival {
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.secaoUm {
+  font-family: 'Inter', sans-serif;
+}
+
+.secaoDois {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.tituloFestival {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #C94B4B;
+}
+
+.tituloProgramacao {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #C94B4B;
+}
+
+.informUm {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.informDois {
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.imgFestival {
+  width: auto;
+  height: 80%;
+  margin-top: 10px;
+}
+
+.categUm {
+  width: 70%;
+  height: 70%;
+}
+
+.categDois {
+  width: 70%;
+  height: 70%;
+}
+
+.categTres {
+  width: 70%;
+  height: 70%;
+}
+
+.textoUm {
+  font-weight: bold;
+  color: #C94B4B;
+}
+
+.inicioUm {
+  color: #EA7B26;
+}
+
+.inicioDois {
+  color: #EA7B26;
+}
+
+.containerDestaque {
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffff;
+  background-color: #EA7B26;
+}
+
+.textoDestaqueDois {
+  text-align: center;
+  font-weight: bold;
+  color: #C94B4B;
+}
+
+footer {
+  width: auto;
+  height: 260px;
+  color: #ffff;
+  background-color: #C94B4B;
+  font-family: 'Inter', sans-serif;
+}
+
+.tituloRodape {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textoRodapeUm {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 0;
+  font-size: 15px;
+}
+
+.textoRodapeDois {
+  padding-bottom: 20px;
+  line-height: 0;
+  font-size: 15px;
+}
+
+.rodape {
+  text-align: center;
+}
+
+.iconUm {
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.iconDois {
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.textoWorkshops {
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 480px) {
+  .menuNav {
+    font-size: 18px;
+  }
+
+  .tituloFestival {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #C94B4B;
+  }
+
+  .imgFestival {
+    width: auto;
+    height: auto;
+  }
+
+  .categUm {
+    width: auto;
+    height: 300px;
+  }
+
+  .categDois {
+    width: auto;
+    height: 300px;
+  }
+
+  .categTres {
+    width: auto;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    height: 85%;
+  }
+
+  .containerLogo {
+    margin-left: 4%;
+    position: relative;
+  }
+
+  .containerApresentacao {
+    margin-top: 4%;
+    margin-right: 9%;
+    position: relative;
+  }
+
+  .containerNav {
+    margin-top: -2%;
+  }
+
+  .menuNav {
+    font-size: 18px;
+  }
+
+  .imgFestival {
+    width: auto;
+    height: auto;
+  }
+
+  .informDois {
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  article {
+    margin-bottom: -180px;
+    display: inline-block;
+  }
+
+  .categUm {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .categDois {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+  }
+
+  .textoApresentacoes {
+    margin-left: 20px;
+  }
+
+  .categTres {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (min-width: 1024px) {
+  .containerLogo {
+    margin-left: 10%;
+    position: relative;
+  }
+
+  .categUm {
+    width: auto;
+    height: 300px;
+  }
+
+  .categDois {
+    width: auto;
+    height: 300px;
+  }
+
+  .categTres {
+    width: auto;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo {
+    height: 98%;
+  }
+
+  .containerLogo {
+    margin-bottom: 10%;
+    margin-left: 25%;
+    position: relative;
+  }
+
+  .containerApresentacao {
+    margin-right: 20%;
+    margin-top: 1.5%;
+    position: relative;
+  }
+
+  .containerNav {
+    margin-top: -140px;
+  }
+}
